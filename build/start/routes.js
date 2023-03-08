@@ -7,4 +7,7 @@ const Route_1 = __importDefault(global[Symbol.for('ioc.use')]("Adonis/Core/Route
 Route_1.default.get('/', async () => {
     return { hello: 'world' };
 });
+Route_1.default.get('/happy', async () => {
+    return { happy: 'I am happy' };
+});
 //# sourceMappingURL=routes.js.map

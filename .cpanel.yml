@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/mosb6374/nodejs/
+    - export DEPLOYPATH=/home/mosb6374/public_html/api.moseshappy.com/
     - /bin/cp -R build $DEPLOYPATH
